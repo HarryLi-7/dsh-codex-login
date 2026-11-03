@@ -1,0 +1,6 @@
+# dsh-codex-login bundle layer: mount the ChatGPT (Codex) OAuth helper rows
+# when a profile lists this bundle. Applied after the profile's other bundles,
+# before the profile's own cordis.patch.yml.
+- insert:
+    - id: codex-login
+      name: dsh-codex-login
